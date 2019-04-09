@@ -16,11 +16,9 @@ for (var i = 0; i < copyText.length; i++) {
     copyText[i].append("Copy to Clipboard");
 }
 
-
 $('.prettyprinted').click(function() {
     var currId = $(this).attr('id');
     alert($('#'+currId).text());
 });
-
 // how to bind button with function
 document.getElementById('button').addEventListener('click', loadUrls);
